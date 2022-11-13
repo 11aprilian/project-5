@@ -63,7 +63,6 @@ module.exports = {
   deleteAllTodo: async (req, res) => {
     try {
       const todos = await Todo.deleteMany();
-      console.log(todos);
       res.status(200).json({
         message: "All Data Deleted!",
       });

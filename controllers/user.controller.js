@@ -34,7 +34,7 @@ module.exports = {
     }
   },
 
-  addUser: (req, res) => {
+  registerUser: (req, res) => {
     const data = req.body
 
     const saltRounds = 10
