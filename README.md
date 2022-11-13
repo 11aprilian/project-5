@@ -90,7 +90,7 @@ Serves to get all todo
 
 - method : GET
 - Endpoint: /todo
-- Header :
+- HTTP Header :
   - auth-token : `token`
 - Response :
 
@@ -116,7 +116,7 @@ Serves to get Todo by ID
 
 - method : GET
 - Endpoint: todo/:id
-- Header:
+- HTTP Header:
   - auth-token: `token`
 - Response:
 
@@ -137,7 +137,7 @@ Serves to update todo by ID
 
 - Method : PATCH
 - Endpoint: todo/:id
-- Header:
+- HTTP Header:
   - auth-token: `token`
 
 - Body : 
@@ -166,7 +166,7 @@ Serves to delete Taskk by ID
 
 - Method : DELETE
 - Endpoint: todo/:id
-- Header:
+- HTTP Header:
   - auth-token: `token`
 - Response :
 
@@ -182,7 +182,7 @@ serves to delete All Todos
 
 - Method : DELETE
 - Endpoint: todo/
-- Header:
+- HTTP Header:
   - auth-token : `token`
 - Response :
 
@@ -198,7 +198,7 @@ serves to add new Todo
 
 - Method : POST
 - Endpoint : todo/add
-- Header : 
+- HTTP Header : 
   - auth-token : `token`
 - Response : 
 
