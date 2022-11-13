@@ -29,7 +29,7 @@ module.exports = {
       })
     }
     } catch (error) {
-      console.log(error);
+      res.status(500).json({ message: "Server Error" })
     }
   },
 
@@ -56,7 +56,7 @@ module.exports = {
       res.json({message: "Data Deleted"})
     }
     } catch (error) {
-      console.log(error);
+      res.status(500).json({ message: "Server Error" })
     }
   },
 
@@ -71,7 +71,7 @@ module.exports = {
         data : todos })
    
     } catch (error) {
-      console.log(error);
+      res.status(500).json({ message: "Server Error" })
     }
   }
 
