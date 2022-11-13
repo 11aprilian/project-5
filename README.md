@@ -205,8 +205,6 @@ serves to add new Todo
 ```
 {
   "name" : "string",
-  "user" :{
-    "_id": "User.ObjectId"
-  }
+  "user" : "user.ObjectId"
 }
 ```
