@@ -5,6 +5,7 @@
 - mongoose
 - jsonwebtoken
 - bcrypt
+- dotenv
 
 ## How to use
 
